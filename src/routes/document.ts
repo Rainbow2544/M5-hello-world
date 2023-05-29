@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.get('/', documentController.getAllDocuments)
 
-// router.post('/', taskController.createOneTask)
+router.post('/', documentController.createOneDocument)
 
 router.get('/:id', documentController.getOneDocument)
 
