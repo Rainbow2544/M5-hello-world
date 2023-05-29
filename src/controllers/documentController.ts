@@ -6,3 +6,14 @@ export const getAllDocuments = (req: Request, res: Response) => {
   res.send(documents)
 }
 
+export const getOneDocument = (req: Request, res: Response) => {
+  const id = parseInt(req.params.id)
+  
+  try {
+    const document = documentService.getOneDocument(id)
+    res.send(document)
+  } catch (e) {
+    res.status(404).send(e)
+  }
+}
+

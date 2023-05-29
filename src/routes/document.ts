@@ -7,7 +7,7 @@ router.get('/', documentController.getAllDocuments)
 
 // router.post('/', taskController.createOneTask)
 
-// router.get('/id=:id', taskController.getOneTask)
+router.get('/:id', documentController.getOneDocument)
 
 // router.delete('/:id', taskController.deleteTask)
 
