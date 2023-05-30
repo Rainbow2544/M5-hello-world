@@ -9,9 +9,9 @@ on:
             - master
 
 env:
-    PROJECT_ID: ts-demo-387508 #TODO: update Google Cloud project
-    SERVICE: tasks-api #TODO: update Cloud Run service name
-    REGION: australia-southeast2 #TODO: update Cloud Run service region
+    PROJECT_ID: mission5-api 
+    SERVICE: mission5-api 
+    REGION: australia-southeast2 
 
 jobs:
     build_test_deploy:
@@ -44,7 +44,6 @@ jobs:
               with:
                 service: ${{ env.SERVICE }}
                 region: ${{ env.REGION }}
-                # NOTE: If required, update to the appropriate source folder
                 source: ./
             
             - name: Show Output
