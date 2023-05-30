@@ -5,14 +5,13 @@ const router = express.Router()
 
 router.get('/', documentController.getAllDocuments)
 
-// router.post('/', taskController.createOneTask)
+router.post('/', documentController.createOneDocument)
 
 router.get('/:id', documentController.getOneDocument)
 
-// router.delete('/:id', taskController.deleteTask)
+router.delete('/:id', documentController.deleteOneDocument)
 
-// router.put('/:id', taskController.updateTask)
+router.put('/:id', documentController.updateOneDocument)
 
-// router.patch('/:id', taskController.updateTaskPartial)
 
 export default router

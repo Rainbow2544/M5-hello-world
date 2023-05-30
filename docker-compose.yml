@@ -1,8 +1,8 @@
 version: "1"
 services:
         tasks-app:
-            container_name: tasks-app
-            image: latest/tasks-app
+            container_name: documents-app
+            image: latest/documents-app
             restart: always
             build: .
             ports:

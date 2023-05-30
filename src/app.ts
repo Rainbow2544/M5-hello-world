@@ -1,8 +1,15 @@
 import express from 'express'
 import documentRoutes from './routes/document'
 import mongoose from 'mongoose'
+import dotenv from "dotenv"
 
-//mongoose.connect("mongodb://mongo:27018/Samp_data");
+dotenv.config();
+
+mongoose
+    .connect(process.env.MONGO_URL as string)
+    .then(() => console.log("DB Connection Successful!"))
+    .catch((err) => console.log(err));
+
 const app = express()
 app.use(express.json())
 
