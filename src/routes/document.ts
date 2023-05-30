@@ -13,6 +13,5 @@ router.delete('/:id', documentController.deleteOneDocument)
 
 router.put('/:id', documentController.updateOneDocument)
 
-// router.patch('/:id', taskController.updateTaskPartial)
 
 export default router
