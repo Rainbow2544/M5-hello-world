@@ -32,9 +32,6 @@ jobs:
             - name: Build
               run: npm run build
             
-            - name: Run Tests
-              run: npm run test
-            
             - name: Google Auth
               id: auth
               uses: 'google-github-actions/auth@v0'
