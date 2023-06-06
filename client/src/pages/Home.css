@@ -1,0 +1,46 @@
+.photoBgContainer{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://th.bing.com/th/id/R.c4749a7198cfc52c1126a716a380bbfa?rik=q29%2fgg2f3N4yhA&riu=http%3a%2f%2fwww.getsready.com%2fwp-content%2fuploads%2f2016%2f09%2fkyoto-best-lake-ever.jpg&ehk=o0oo5N9uqnl2CGrPTymfc2OFec82MNLlSsTnq8T3Xi4%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#photoBgContainer--gray{
+    position: absolute;
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 400px;
+}
+#photoBgContainer__header{
+    position: absolute;
+    color: aliceblue;
+    font-size:23px;
+    width: 50%;
+    text-align: left;
+    margin-left: 80px;
+}
+#photoBgContainer__searchBar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width:1000px) {
+    #photoBgContainer__header{
+        font-size: 20px;
+    }
+}
+@media (max-width:720px) {
+    #photoBgContainer__header{
+        font-size: 16px;
+    }
+}
+@media (max-width:490px) {
+    #photoBgContainer__header{
+        width: 60%;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+}

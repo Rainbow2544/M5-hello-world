@@ -1,0 +1,50 @@
+{
+    "listingArr":[
+        {
+            "id" : 1,
+            "img": "https://th.bing.com/th/id/R.1a4dc8e929ec26edc97adca359d8b46f?rik=%2fcCmzK7FM3C0kQ&pid=ImgRaw&r=0",
+            "country": "Japan",
+            "city": "Kyoto",
+            "des":"Before Tokyo stole the limelight as Japan's capital, Kyoto had been the country's cultural center for about a thousand years. A visit to the Imperial Palace attests to the city's former political importance. Aside from this, spiritual dignity and power emanate from the many Shinto and Buddhist temples that adorn the city’s map. The Golden Pavilion, a gold-plated temple, is a must-see. The Kamo and Takase rivers, on the other hand, are natural playgrounds where visitors can enjoy hiking and cycling. The city also boasts of many markets and tea houses for foodies."
+
+    
+        },
+        {
+            "id" : 2,
+            "img": "https://res.cloudinary.com/hstcxjula/image/upload/v1469681108/qtph705vi6q3tclc1ash.jpg",
+            "country": "Japan",
+            "city": "Tokyo",
+            "des":"Tokyo is known for being a lively and futuristic metropolis. It features a unique mix of the old and modern that blends perfectly with ancient temples hidden among large, modern architecture. Over 14 million foreigners visit Tokyo each year. It has been a well-traveled destination for decades. Cherry blossoms, Mt. Fuji, and sushi grace the postcards and photographs. There are lots of fun things to do in Tokyo, even for the little ones. Tokyo Tower was inspired by the Eiffel Tower. It is also home to the Tsukiji Fish Market, the largest fish market in the world."
+    
+        },
+        {
+            "id" : 3,
+            "img": "https://th.bing.com/th/id/OIP.CN4jGbPiyIUbgzYolMm1tQHaE8?pid=ImgDet&rs=1",
+            "country": "China",
+            "city": "GuangZhou",
+            "des":"Guangzhou not only has some of China's oldest temples, a millennium-old park, an imperial tomb of a southern kingdom, and complete preservation of colonial villas and churches on Shamian, but it also exhibits some futuristic structures and also an autopilot metro on Zhujiang New Town. Guangzhou boasts several historic parks ranging from a 1000-year-old lake garden to a green tomb for martyrs to a huge wetland dedicated to migrating birds from Serbia and Mongolia."
+        },
+        {
+            "id" : 4,
+            "img": "https://th.bing.com/th/id/OIP.bDMr_n5MrMTjTdFjXIy3nAHaEo?pid=ImgDet&rs=1",
+            "country": "England",
+            "city": "London",
+            "des":"One of the world's most visited cities, London is also known as the financial hub of the world with major banks headquartered in the city. Rich in history and culture, the city is filled with iconic landmarks including the world-famous Tower Bridge and the magnificent Big Ben. Not to mention the food scene, thousands of bars and restaurants spread across the city serving almost every cuisine imaginable. Discover the finest museum of the world or head towards Buckingham Palace, the official residence of Queen Elizabeth."
+        },
+        {
+            "id" : 5,
+            "img": "https://i.pinimg.com/originals/23/10/bb/2310bb77cf97cd5bbdc85d26b03bbccb.jpg",
+            "country": "France",
+            "city": "Paris",
+            "des":"The most romantic city in the world, Paris is a global center for art, fashion, gastronomy, and culture. Paris returns to tranquillity in the autumn and when winter and the holidays arrive, Paris' streets are illuminated, revealing the city's magic. On a beautiful day, a stroll along the Seine's banks is a sight to behold: grand historical buildings reflected in its waters, classic Parisian roofs, and the Seine's bridges, each with its distinct style. Pei's pyramid surrounded by the Louvre's classic courtyard or the Musée du Quai Branly at the foot of the Eiffel Tower is just a few examples of architectural contrasts that only add to the city's splendor."
+        },
+        {
+            "id" : 6,
+            "img": "https://th.bing.com/th?id=OSK.HEROc1j3rPZ-_f8xYXjuq0gTCu2E-1wmMgtVwLXo6O_fn5I&w=472&h=280&c=1&rs=2&o=6&dpr=1.3&pid=SANGAM",
+            "country": "Greece",
+            "city": "Santorini",
+            "des":"Santorini in Greece is the largest island of a small, circular archipelago in the southern Aegean Sea approximately 200 kilometers southeast of the mainland with a total land area of 90.623 square kilometers. It derived its name from the iconic caldera of Santorini in the center of the volcanic field including the extinct Christiana Volcano. Its municipality includes two inhabited islands and four uninhabited islands and is part of the Thira regional unit."
+        }
+    ]
+    
+}

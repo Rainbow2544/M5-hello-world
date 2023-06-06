@@ -1,0 +1,119 @@
+
+/* navbar  */
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: 700;
+  padding: 4px;
+}
+.navbar__logoContainer {
+  margin-left: 40px;
+  margin-top: 3px;
+}
+#navbar__logoContainer--logoImg {
+  width: 130px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__menu > ul {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+.navbar__menu--links {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: black;
+}
+.navbar__menu--links:hover {
+  color: gray;
+  cursor: pointer;
+}
+.navbar__dropdownMenu {
+  display: none;
+}
+#navbar__dropdownMenu--btn {
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  border: none;
+  padding: 8px 10px;
+  background-color: white;
+}
+#navbar__dropdownMenu--btn:hover {
+  background-color: rgb(232, 240, 240);
+  transition: all 0.3s ease;
+}
+.navbar__btnContainer {
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.navbar__btnContainer--btn {
+  padding: 12px 15px;
+  margin-right: 15px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: rgb(21, 22, 23);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: small;
+}
+.navbar__btnContainer--btn:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(232, 240, 240);
+  transition: all 0.3s ease;
+}
+
+/* dropdownContainer  */
+.dropdownContainer {
+  display: none;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.dropdownContainer > ul {
+  list-style: none;
+  text-align: left;
+}
+.dropdownContainer > ul > li {
+  padding: 10px;
+  font-size: medium;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.dropdownContainer > ul > li:hover {
+  background-color: rgb(220, 216, 216);
+  transition: all 0.3s ease;
+}
+.dropdownContainer--links {
+  text-decoration: none;
+  color: black;
+}
+.dropdownContainer__btnContainer {
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .dropdownContainer {
+   display: flex; 
+  }
+  .navbar__menu {
+    display: none;
+  }
+  .navbar__dropdownMenu {
+    display: flex;
+    flex-direction: column;
+  }
+}
