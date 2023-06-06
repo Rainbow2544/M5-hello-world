@@ -1,0 +1,35 @@
+.listingItemContainer {
+  padding: 10px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.listingItemContainer:hover {
+  padding: 10px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.listingItemContainer--Img {
+  width: 100%;
+  height: 220px;
+}
+.listingItemContainer--cityName {
+  font-weight: 700;
+  font-size: large;
+  position: absolute;
+  margin-left: 5px;
+}
+.listingItemContainer--des {
+  margin-top: 30px;
+  margin-left: 5px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

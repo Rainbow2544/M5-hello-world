@@ -1,12 +1,12 @@
 version: "1"
 services:
-        tasks-app:
-            container_name: documents-app
-            image: latest/documents-app
+        hello-world-api:
+            container_name: documents-api
+            image: latest/documents-api
             restart: always
             build: .
             ports:
-              - "3000:3000"
+              - "8080:8080"
             links:
               - mongo
         mongo:

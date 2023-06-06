@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /app/server
 
 # Copy package.json and yarn.lock files
 COPY package.json yarn.lock ./
@@ -20,7 +20,7 @@ COPY . .
 RUN yarn build
 
 # Expose the port (if applicable)
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the application
 CMD ["yarn", "start"]
